@@ -138,31 +138,9 @@ include 'menu.php';
   <section id="localizacao"  class="localizacao">LOCALIZAÇÃO</section>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.018842092975!2d-47.32767173022461!3d-22.755926799999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89991d0d65091%3A0xe0ad9a25e4f050d3!2sR.%20Anhanguera%2C%201891%20-%20Nova%20Americana%2C%20Americana%20-%20SP%2C%2013466-060!5e0!3m2!1sen!2sbr!4v1685564151625!5m2!1sen!2sbr" width="750" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
 
-  <footer class="footer">
-
-    <h4 class="textoFooter">Barbearia #</h4>
-    <div class="icones">
-
-    <a href="https://api.whatsapp.com/send?phone=<19991229908>&text=Olá!" style="text-decoration: none;" target="_blank">
-    <img src="img/whatsapp.png" class="iconeWhatsapp" alt="Ícone do WhatsApp">
-    </a>
-
-      <a href="https://www.instagram.com/jvpolizelli/" style="text-decoration: none;" target="_blank">
-    <img src="img/instagram.png" class="iconeInstagram" alt="Ícone do Instagram">
-  </a>
-
-  <a href="https://www.facebook.com/joaovitor.polizelli" target="_blank">
-    <img src="img/facebook.png" class="iconeFacebook" alt="Ícone do Facebook">
-  </a>
-
-    </div>
-
-    <h6 class="textoFooter2">Barbearia # - CNPJ: 00.001.001/0001-01<br>
-
-      Rua X, Número 1891 - CEP 13466-060 - Americana - SP - Nova Americana<br>
-
-      Copyright © 2023, TODOS OS DIREITOS RESERVADOS.</h6>
-  </footer>
+    <?php include 
+  'footer.php';
+  ?>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

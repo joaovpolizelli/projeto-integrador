@@ -604,13 +604,49 @@
   height: 100vh;
 }
 
+@media screen and (min-width: 0px) and (max-width: 280px) {
+  .imagemCadastro {
+height: 65vh;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 701px) {
+  .imagemCadastro {
+height: 60vh;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 950px) {
+  .imagemCadastro {
+height: 70vh;
+  }
+}
+
 .cadastro{
   font-family: 'Oswald', sans-serif;
     font-size: 6.5vw;
     position: absolute;
     color: white;
-    margin-top: 5%;
+    margin-top: 10%;
     left: 36.5%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 280px) {
+  .cadastro {
+margin-top: 40%;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 450px) {
+  .cadastro {
+margin-top: 20%;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 550px) {
+  .cadastro {
+margin-top: 15%;
+  }
 }
 
 .containerCadastro{
@@ -620,16 +656,29 @@
     flex-direction: column;
     display: flex;
     margin: 0 25.4%;
-    padding-top: 20%;
+    padding-top: 26%;
+}
+
+@media screen and (min-width: 280px) and (max-width: 450px) {
+  .containerCadastro {
+padding-top: 34%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 280px) {
+  .containerCadastro {
+padding-top: 50%;
+  }
 }
 
 .login{
   font-family: 'Oswald', sans-serif;
     font-size: 6.5vw;
     position: absolute;
-    color: white;
-    margin-top: 14%;
+    color: rgb(255, 0, 0);
+    margin-top: 10%;
     left: 43%;
+    
 }
 
 @media screen and (min-width: 0px) and (max-width: 280px) {
@@ -661,6 +710,11 @@ height: 60vh;
   }
 }
 
+@media screen and (min-width: 701px) and (max-width: 950px) {
+  .imagemLogin {
+height: 70vh;
+  }
+}
 
 .containerLogin{
   border-radius: 0;
