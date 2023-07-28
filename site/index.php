@@ -4,9 +4,6 @@ include 'menu.php';
 ?>
 
 
-
-
-
   <div>
     <img id="inicio" src="img/barber.jpg" class="img-fluid imagemInicio" alt="">
   </div>

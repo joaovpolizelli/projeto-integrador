@@ -745,3 +745,28 @@ padding-top: 50%;
 .cadastre-se{
   color: red;
 }
+
+.voltarLogin{
+  color: rgb(0, 255, 200);
+
+}
+
+.voltarLogin:hover{
+  color: rgb(89, 178, 255);
+}
+
+.painelControle{
+  margin-top: 10%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 350px) {
+  .painelControle {
+margin-top: 25%;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+  .painelControle {
+margin-top: 15%;
+  }
+}

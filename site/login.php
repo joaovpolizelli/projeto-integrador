@@ -16,25 +16,26 @@ function redirect($url) {
 
 include 'cabecalho.php';
 include 'menu.php';
+
 ?>
 
 <section class="login">LOGIN</section>
     <div class="containerLogin">
-      <form action="login.php" method="post">
+      <form action="validarLogin.php" method="POST">
         <div class="row">
           <div class="col-6 mx-auto mb-2">
-            <input type="text" class="form-control nomeContato btn-light" name="usuario" placeholder="Nome de Usuário ou E-mail">
+            <input type="email" class="form-control nomeContato btn-light" name="email" placeholder="E-mail">
           </div>
         </div>
         <div class="row">
           <div class="col-6 mx-auto mb-2">
-            <input type="text" class="form-control assuntoContato btn-light" name="senha" placeholder="Senha">
+            <input type="password" class="form-control assuntoContato btn-light" name="senha" placeholder="Senha">
           </div>
         </div>
         
         <div class="row">
           <div class="col-6 mx-auto mt-2 text-center">
-            <button class="btn btn-dark" type="submit">Iniciar Sessão</button>
+            <button class="btn btn-dark" type="submit" name="submit" value="Enviar">Iniciar Sessão</button>
           </div>
         </div>
 
