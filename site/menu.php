@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg fixed-top bg-dark">
     <div class="container-fluid">
-    <a class="barbeariaHeader" href="#inicio"><h3><strong>Barbearia #</strong></h3></a>
+    <a class="barbeariaHeader" href="login.php?redirect=home"><h3><strong>Barbearia #</strong></h3></a>
       <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
