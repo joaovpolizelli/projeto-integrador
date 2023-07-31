@@ -51,13 +51,13 @@ header('location: login.php');
         
         <div class="row">
           <div class="col-6 mx-auto mt-2 text-center">
-            <button class="btn btn-danger" type="submit" name="submit">Concluir</button>
+            <button class="col-6 btn btn-primary" type="submit" name="submit">Concluir</button>
           </div>
         </div>
 
         <div class="row">
-           <div class="col text-center mt-5">
-            <a class="voltarLogin" href="login.php">Voltar!</a>
+           <div class="col text-center mt-4">
+            <a class="voltarLogin" href="login.php">Voltar</a>
            </div>
         </div>
 

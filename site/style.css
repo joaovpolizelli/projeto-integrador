@@ -606,19 +606,19 @@
 
 @media screen and (min-width: 0px) and (max-width: 280px) {
   .imagemCadastro {
-height: 65vh;
+height: 70vh;
   }
 }
 
 @media screen and (min-width: 280px) and (max-width: 701px) {
   .imagemCadastro {
-height: 60vh;
+height: 70vh;
   }
 }
 
 @media screen and (min-width: 701px) and (max-width: 950px) {
   .imagemCadastro {
-height: 70vh;
+height: 80vh;
   }
 }
 
@@ -747,12 +747,8 @@ padding-top: 50%;
 }
 
 .voltarLogin{
-  color: rgb(0, 255, 200);
+  color: red;
 
-}
-
-.voltarLogin:hover{
-  color: rgb(89, 178, 255);
 }
 
 .cadastrosPainel{
