@@ -2,7 +2,9 @@
 session_start();
 
 //print_r($_REQUEST);
+
 if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])){   
+    
 // Acessa
 include_once('conexao.php');
 $email = $_POST['email'];
@@ -19,16 +21,15 @@ $result = $conexao->query($sql);
 
 if(mysqli_num_rows($result) < 1)
 {
-    unset($_SESSION['email']);
-    unset($_SESSION['senha']); 
-header('location: login.php');
+    $_SESSION['msg'] = "<div class='alert alert-danger text-center'>Login ou senha incorreto!</div>"; header("Location: login.php");
 }else {
     $_SESSION['email'] = $email;
     $_SESSION['senha'] = $senha; 
 header('location: painel.php');
 }
   }
-  else{
+  else
+  {
     //Não acessa
     header('location: login.php');
 }
